@@ -1,25 +1,12 @@
 {
-  "name": "match-route",
-  "version": "0.1.1",
-  "license": "MIT",
+  "name": "ramitos-match-route",
   "description": "Match a request against a object of routes",
-  "author": "Sérgio Ramos <mail@sergioramos.me>",
-  "keywords": ["routes", "http", "request", "match"],
+  "version": "0.1.1",
   "main": "src/match-route.js",
-  "scripts": {
-    "test": "node test/runner.js"
-  },
-  "repository": {
-    "url": "https://github.com/ramitos/match-route",
-    "type": "git"
-  },
   "dependencies": {
-    "path-to-regexp": "0.0.x"
+    "component-path-to-regexp": "git://github.com/npmcomponent/component-path-to-regexp.git",
+    "component-querystring": "git://github.com/npmcomponent/component-querystring.git",
+    "component-url": "git://github.com/npmcomponent/component-url.git"
   },
-  "devDependencies": {
-    "specced": "0.0.x"
-  },
-  "directories": {
-    "test": "test"
-  }
+  "license": "MIT"
 }

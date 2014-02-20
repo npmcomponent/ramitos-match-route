@@ -1,6 +1,6 @@
-var regex = require('path-to-regexp'),
-    qs = require('querystring'),
-    url = require('url');
+var regex = require('component-path-to-regexp'),
+    qs = require('component-querystring'),
+    url = require('component-url');
 
 module.exports = function (req, routes, callback) {
   var method = req.method.toLowerCase();
